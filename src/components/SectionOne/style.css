@@ -1,0 +1,119 @@
+.hero {
+  background: #2f2f2f;
+  color: white;
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  max-width: 500px;
+}
+
+.tag {
+  color: #f59b00;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-family: Poppins;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0%;
+text-transform: uppercase;
+
+}
+
+.left h1 {
+  font-size: 48px;
+  margin: 20px 0;
+  font-family: Poppins;
+font-weight: 700;
+font-size: 61px;
+line-height: 130%;
+letter-spacing: 0%;
+text-transform: capitalize;
+
+}
+
+.left h1 span {
+
+  color: #FFFFFF80;
+
+}
+
+.left p {
+  opacity: 0.7;
+  line-height: 1.6;
+  font-family: Poppins;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+letter-spacing: 0%;
+text-transform: capitalize;
+
+}
+
+.join-btn {
+  margin-top: 25px;
+  background: #f59b00;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  width: 145px;
+  height: 50px;
+}
+
+
+.right {
+  width: 400px;
+  height: 500px;
+}
+
+.img-placeholder {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+}
+.image-box {
+  width: 450px;
+  height: 520px;
+
+}
+.img-placeholder img{
+  width: 620px;
+height: 614px;
+
+}
+
+.rrr{
+  position: relative;
+  top: 150px;
+  right: 160px;
+}
+
+
+.dd{
+  position: relative;
+  left: 180px;
+}
+
+
+
+
+.ww{
+  position: relative;
+  right: 450px;
+}
+
+.cont{
+  max-width: 1440px;
+  margin: 0 auto;
+
+}
