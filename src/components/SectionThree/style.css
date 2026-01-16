@@ -1,0 +1,131 @@
+.hum-section-three {
+    padding: 80px 0;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.hum-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hum-content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+/* Rasm qismi stili */
+.hum-image-grid {
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hum-bg-shape {
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #fdf2e2; /* Orqa fondagi sarg'ish rang */
+    z-index: 1;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); /* O'sha "brush" effekti uchun taxminiy shakl */
+    opacity: 0.7;
+}
+
+.hum-bag {
+    position: relative;
+    z-index: 2;
+    transition: transform 0.3s ease;
+}
+
+.hum-bag-main {
+    width: 320px;
+    z-index: 5;
+}
+
+.hum-bag-blue {
+    width: 240px;
+    margin-right: -100px;
+    margin-top: 50px;
+    z-index: 3;
+    filter: brightness(0.9);
+}
+
+.hum-bag-red {
+    width: 240px;
+    margin-left: -100px;
+    margin-top: 50px;
+    z-index: 3;
+    filter: brightness(0.9);
+}
+
+/* Matn qismi stili */
+.hum-text-content {
+    flex: 1;
+}
+
+.hum-subtitle {
+    color: #f39c12;
+    font-weight: bold;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.hum-title {
+    font-size: 36px;
+    color: #333;
+    line-height: 1.3;
+    margin-bottom: 25px;
+    font-weight: 800;
+}
+
+.hum-description {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    font-size: 14px;
+    max-width: 500px;
+}
+
+.hum-btn-more {
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    padding: 12px 35px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.hum-btn-more:hover {
+    background-color: #e67e22;
+}
+
+/* Responsive (Mobil qurilmalar uchun) */
+@media (max-width: 992px) {
+    .hum-content-wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .hum-description {
+        margin: 0 auto 30px;
+    }
+
+    .hum-bag-main {
+        width: 250px;
+    }
+
+    .hum-bag-blue, .hum-bag-red {
+        width: 180px;
+    }
+}
+.humm{
+    width: 500px;
+}
