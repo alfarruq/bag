@@ -1,0 +1,72 @@
+.Footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #2F2F2FEB;
+    padding: 50px;
+    color: white;
+}
+
+.Fayzbek-h1{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 30.71px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+}
+
+.Fayzbek-p{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: grey;
+}
+
+.Fayzbek-h3{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.Fayzbek-inp{
+    width: 264px;
+    height: 49px;
+    opacity: 1;
+    top: 4431px;
+    left: 1109px;
+    border-width: 1px;
+    border-radius: 5px;
+    border: 1px solid #B0A9A9;
+    background-color: #2F2F2FEB;
+}
+
+.Fayzbek-btn{
+    width: 120px;
+    height: 39px;
+    opacity: 1;
+    top: 4510px;
+    left: 1109px;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    gap: 10px;
+    background: #F59B00;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-top: 20px;
+    border: none;
+}
